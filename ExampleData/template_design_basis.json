@@ -1,0 +1,52 @@
+{
+	"id": "670957772",
+	"type": "page",
+	"status": "current",
+	"title": "Design Basis for Technical Description - Greenfield",
+	"macroRenderedOutput": {},
+	"body": {
+		"storage": {
+			"value": "<h1>Design Basis</h1><p>This technical description outlines the <strong>Activated Sludge (AS)</strong> alternative for the <code>proj_name</code> <strong>Project ID</strong> <code>proj_id</code> Water Resource Recovery Facility (WRRF) in <code>proj_loc</code>. As outlined below, the design capacity of the proposed facility is <code>Q_inf_AA</code> m<sup>3</sup>/d.</p><p>This document outlines the overview of the proposed treatment process, the basis of design and preliminary design information by process unit.</p><p>Table 1 and 2 show the influent flows and characteristics, as well as effluent limits used as the basis of design, which are based on the provided information and on certain assumptions made during the design.</p><p><code>TableTitle</code> <strong>Influent flows and characteristics used as the basis of design</strong></p><table data-layout=\"default\"><tbody><tr><th><p><strong>Parameter</strong></p></th><th><p style=\"text-align: center;\"><strong>Influent Flows and Characteristics</strong></p></th><th><p style=\"text-align: center;\"><strong>Unit</strong></p></th></tr><tr><td><p><strong>Design average flow (Q<sub>Design Average</sub>)</strong></p></td><td><p style=\"text-align: center;\"><code>Q_inf_AA</code></p></td><td><p style=\"text-align: center;\"><strong>m<sup>3</sup>/d</strong></p></td></tr><tr><td><p><code>Q_inf_PH&gt;0</code><strong>Dry weather peak flow (Q<sub>Dry Weather Peak</sub>)</strong></p></td><td><p style=\"text-align: center;\"><code>Q_inf_PH</code></p></td><td><p style=\"text-align: center;\"><strong>m<sup>3</sup>/h</strong></p></td></tr><tr><td><p><code>Q_inf_PD_client&gt;0</code><strong>Peak daily flow (Q<sub>Peak Daily Flow</sub>)</strong></p></td><td><p style=\"text-align: center;\"><code>Q_inf_PD_client</code></p></td><td><p style=\"text-align: center;\"><strong>m<sup>3</sup>/d</strong></p></td></tr><tr><td><p><code>Q_inf_WP_client&gt;0</code><strong>Peak hourly flow (Q<sub>Peak Hourly Flow </sub>)</strong></p></td><td><p style=\"text-align: center;\"><code>Q_inf_WP_client</code></p></td><td><p style=\"text-align: center;\"><strong>m<sup>3</sup>/h</strong></p></td></tr><tr><td><p><code>Q_eq&gt;0</code><strong>Design peak flow after flow equalization (Q<sub>peakEQ</sub>)</strong></p></td><td><p style=\"text-align: center;\"><code>Q_eq</code></p></td><td><p style=\"text-align: center;\"><strong>m<sup>3</sup>/h</strong></p></td></tr><tr><td><p><strong>Chemical Oxygen Demand (COD)</strong></p></td><td><p style=\"text-align: center;\"><code>COD_inf_AA_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><strong>@fCOD_inf_AA&gt;0@Filtered Chemical Oxygen Demand, including colloids (fCOD)</strong></p></td><td><p style=\"text-align: center;\"><code>fCOD_inf_AA</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><strong>Biochemical Oxygen Demand (BOD<sub>5</sub>)</strong></p></td><td><p style=\"text-align: center;\"><code>BOD_inf_AA_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><strong>Total Suspended Solids (TSS)</strong></p></td><td><p style=\"text-align: center;\"><code>TSS_inf_AA_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><strong>@VSS_inf_AA_client&gt;0@Volatile Suspended Solids (VSS)</strong></p></td><td><p style=\"text-align: center;\"><code>VSS_inf_AA_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><code>TKN_inf_AA_client&gt;0</code><strong>Total Kjeldahl Nitrogen (TKN)</strong></p></td><td><p style=\"text-align: center;\"><code>TKN_inf_AA_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><code>Ammonia_inf_AA_client&gt;0</code><strong>Ammonia-Nitrogen (NH<sub>4</sub><sup>+</sup>-N)</strong></p></td><td><p style=\"text-align: center;\"><code>Ammonia_inf_AA_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><code>P_tot_inf_AA_client&gt;0</code><strong>Total Phosphorus (TP)</strong></p></td><td><p style=\"text-align: center;\"><code>P_tot_inf_AA_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><code>orthoP_inf_AA_client&gt;0</code><strong>Orthophosphate-Phosphorus (PO<sub>4</sub><sup>3&mdash;</sup>P)</strong></p></td><td><p style=\"text-align: center;\"><code>orthoP_inf_AA_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><code>Alkalinity_inf_AA_client&gt;0</code><strong>Alkalinity (as CaCO<sub>3</sub>)</strong></p></td><td><p style=\"text-align: center;\"><code>Alkalinity_inf_AA</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><strong>Design minimum wastewater temperature (T<sub>min</sub>)</strong></p></td><td><p style=\"text-align: center;\"><code>Temp_inf_AA_client</code></p></td><td><p style=\"text-align: center;\"><strong>&deg;C</strong></p></td></tr><tr><td><p><strong>Design maximum wastewater temperature (T<sub>max</sub>)</strong></p></td><td><p style=\"text-align: center;\"><code>Temp_inf_max_client</code></p></td><td><p style=\"text-align: center;\"><strong>&deg;C</strong></p></td></tr></tbody></table><p><code>TableTitle</code> <strong>Effluent requirements used as the basis of design</strong></p><table data-layout=\"default\"><tbody><tr><th><p><strong>Parameter</strong></p></th><th><p style=\"text-align: center;\"><strong>Effluent Limits</strong></p></th><th><p style=\"text-align: center;\"><strong>Unit</strong></p></th></tr><tr><td><p><code>AND(COD_compl&gt;0,COD_compl&lt;1000)</code><strong>Chemical Oxygen Demand (COD)</strong></p></td><td><p style=\"text-align: center;\"><code>COD_compl_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><strong>Biochemical Oxygen Demand (BOD<sub>5</sub>)</strong></p></td><td><p style=\"text-align: center;\"><code>BOD_compl_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><strong>Total Suspended Solids (TSS)</strong></p></td><td><p style=\"text-align: center;\"><code>TSS_compl_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><code>Turbidity_compl&gt;0</code><strong>Turbidity</strong></p></td><td><p style=\"text-align: center;\"><code>Turbidity_compl</code></p></td><td><p style=\"text-align: center;\"><strong>NTU</strong></p></td></tr><tr><td><p><code>TKN_compl_client&gt;0</code><strong>Total Kjeldahl Nitrogen (TKN)</strong></p></td><td><p style=\"text-align: center;\"><code>TKN_compl_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><code>Ammonia_compl_client&gt;0</code><strong>Ammonia-Nitrogen (NH<sub>4</sub><sup>+</sup>-N)</strong></p></td><td><p style=\"text-align: center;\"><code>Ammonia_compl_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><code>Nitrate_compl&gt;0</code><strong>Nitrate-Nitrogen (NO<sub>3</sub><sup>-</sup>-N)</strong></p></td><td><p style=\"text-align: center;\"><code>Nitrate_compl_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><code>N_tot_compl&gt;0</code><strong>Total Nitrogen (TN)</strong></p></td><td><p style=\"text-align: center;\"><code>N_tot_compl_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr><tr><td><p><code>P_tot_compl_client&gt;0</code><strong>Total Phosphorus (TP)</strong></p></td><td><p style=\"text-align: center;\"><code>P_tot_compl_client</code></p></td><td><p style=\"text-align: center;\"><strong>mg/l</strong></p></td></tr></tbody></table><p><code>Compl_type=0</code><em>Absolute compliance requirements have been selected and used in process design.</em></p><p><code>Compl_type=1</code><em>Daily average compliance requirements have been selected and used in process design.</em></p><p><code>Compl_type=2</code><em>Weekly average compliance requirements have been selected and used in process design.</em></p><p><code>Compl_type=3</code><em>Monthly average compliance requirements have been selected and used in process design</em></p><p><code>Compl_type=4</code><em>Annual average compliance requirements have been selected and used in process design.</em></p>",
+			"representation": "storage",
+			"embeddedContent": [],
+			"_expandable": {
+				"content": "/rest/api/content/670957772"
+			}
+		},
+		"_expandable": {
+			"editor": "",
+			"atlas_doc_format": "",
+			"view": "",
+			"export_view": "",
+			"styled_view": "",
+			"dynamic": "",
+			"editor2": "",
+			"anonymous_export_view": ""
+		}
+	},
+	"extensions": {
+		"position": 927148131
+	},
+	"_expandable": {
+		"childTypes": "",
+		"container": "/rest/api/space/DOCTemplates",
+		"metadata": "",
+		"operations": "",
+		"children": "/rest/api/content/670957772/child",
+		"restrictions": "/rest/api/content/670957772/restriction/byOperation",
+		"history": "/rest/api/content/670957772/history",
+		"ancestors": "",
+		"version": "",
+		"descendants": "/rest/api/content/670957772/descendant",
+		"space": "/rest/api/space/DOCTemplates"
+	},
+	"_links": {
+		"editui": "/pages/resumedraft.action?draftId=670957772",
+		"webui": "/spaces/DOCTemplates/pages/670957772/Design+Basis+for+Technical+Description+-+Greenfield",
+		"context": "/wiki",
+		"self": "https://organicawater.atlassian.net/wiki/rest/api/content/670957772",
+		"tinyui": "/x/zAD_Jw",
+		"collection": "/rest/api/content",
+		"base": "https://organicawater.atlassian.net/wiki"
+	}
+}
