@@ -1,0 +1,10 @@
+* text eol=crlf
+*.dll -text
+*.png -text
+*.jpg -text
+*.gif -text
+*.ttf -text
+*.woff -text
+*.woff2 -text
+*.otf -text
+*.eot -text
